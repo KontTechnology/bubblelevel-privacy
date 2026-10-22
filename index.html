@@ -30,7 +30,7 @@
 
 <h1>Privacy Policy</h1>
 <p class="updated">Application: <strong>Bubble Level</strong> (package <code>com.kont.bubblelevel</code>)<br>
-Last updated: 9 August 2026</p>
+Last updated: 21 October 2026</p>
 
 <p>This policy explains what data the Bubble Level application handles. It is written to
 match the actual behaviour of the app, not a generic template.</p>
@@ -40,13 +40,20 @@ match the actual behaviour of the app, not a generic template.</p>
 belonging to the developer. Nothing you do in the app is sent to the developer.</p>
 
 <h2>2. Data stored on your device</h2>
-<p>The app stores two small settings locally, in the app's own private storage:</p>
+<p>The app stores a few small values locally, in the app's own private storage:</p>
 <ul>
   <li>your calibration offsets (a few decimal numbers),</li>
-  <li>whether the level sound is on or off.</li>
+  <li>whether the level sound is on or off,</li>
+  <li>usage counters that decide when to show the Google Play rating prompt (the number of
+      separate days the app was used, total time of use, and whether the prompt has already
+      been shown).</li>
 </ul>
-<p>These never leave your device. They are deleted when you uninstall the app or clear
-its data from Android Settings.</p>
+<p>The developer cannot see any of these. The sound setting is included in Android's own
+backup and device-to-device transfer (if Google backup is turned on, Android may back it up
+to your Google account). Calibration offsets are deliberately excluded from backup and
+transfer, because they belong to this phone's sensor; on a new phone you simply calibrate
+again. The rating-prompt counters are not backed up either. The values on your device are
+deleted when you uninstall the app or clear its data from Android Settings.</p>
 
 <h2>3. Sensors</h2>
 <p>The app reads your device's accelerometer / gravity sensor to calculate tilt. On
@@ -71,7 +78,9 @@ from sites or apps that use our services</a> and the
 <h3>Consent in the EEA, UK and Switzerland</h3>
 <p>If you are in a region where consent is required, the app shows a Google-certified
 consent screen (Google User Messaging Platform) the first time it runs. You can accept
-or refuse personalised advertising there. If consent is not given, the app still works
+or refuse personalised advertising there. You can change your choice later with
+<em>Ad privacy choices</em> below the buttons on the main screen; this option appears only in
+regions where consent is required. If consent is not given, the app still works
 in full; only the advertising behaviour changes.</p>
 
 <h3>Controlling advertising on your device</h3>
@@ -83,8 +92,7 @@ in full; only the advertising behaviour changes.</p>
 microphone, precise location, contacts, photos, files, SMS or call history.</p>
 <p>The following permissions are declared by the Google Mobile Ads SDK and are visible
 in the app's manifest: internet access, network state, advertising ID and Android Ad
-Services permissions, wake lock and foreground service (declared by the SDK's internal
-scheduling library). The level measurement itself does not use the internet.</p>
+Services permissions and wake lock (declared by the SDK's internal scheduling library). The level measurement itself does not use the internet.</p>
 
 <h2>6. Children</h2>
 <p>The app is a general-purpose tool and is not directed at children under 13. The
@@ -106,7 +114,7 @@ will change.</p>
 
 <h1>Gizlilik Politikası</h1>
 <p class="updated">Uygulama: <strong>Su Terazisi</strong> (paket <code>com.kont.bubblelevel</code>)<br>
-Son güncelleme: 9 Ağustos 2026</p>
+Son güncelleme: 21 Ekim 2026</p>
 
 <p>Bu politika, Su Terazisi uygulamasının hangi verileri işlediğini açıklar. Metin,
 uygulamanın gerçek davranışına göre yazılmıştır.</p>
@@ -116,13 +124,20 @@ uygulamanın gerçek davranışına göre yazılmıştır.</p>
 analitik bulunmaz. Uygulamada yaptığınız hiçbir şey geliştiriciye gönderilmez.</p>
 
 <h2>2. Cihazınızda saklanan veriler</h2>
-<p>Uygulama, yalnızca kendi özel alanında iki küçük ayar saklar:</p>
+<p>Uygulama, yalnızca kendi özel alanında birkaç küçük değer saklar:</p>
 <ul>
   <li>kalibrasyon değerleriniz (birkaç ondalık sayı),</li>
-  <li>ses uyarısının açık mı kapalı mı olduğu.</li>
+  <li>ses uyarısının açık mı kapalı mı olduğu,</li>
+  <li>Google Play puan penceresinin ne zaman gösterileceğini belirleyen kullanım sayaçları
+      (uygulamanın kaç ayrı gün kullanıldığı, toplam kullanım süresi ve pencerenin daha önce
+      gösterilip gösterilmediği).</li>
 </ul>
-<p>Bu veriler cihazınızdan çıkmaz. Uygulamayı kaldırdığınızda veya verilerini
-temizlediğinizde silinir.</p>
+<p>Geliştirici bunların hiçbirini göremez. Ses tercihi Android'in kendi yedeğine ve cihazdan
+cihaza aktarımına dahildir (Google yedeği açıksa Android bunu Google hesabınıza
+yedekleyebilir). Kalibrasyon değerleri bilerek yedeğe ve cihaz aktarımına dahil edilmez, çünkü
+o telefonun sensörüne özgüdür; yeni telefonda yeniden kalibrasyon yapmanız yeterlidir. Puan
+penceresi sayaçları da yedeğe girmez. Cihazınızdaki değerler, uygulamayı kaldırdığınızda veya
+verilerini temizlediğinizde silinir.</p>
 
 <h2>3. Sensörler</h2>
 <p>Uygulama eğimi hesaplamak için cihazınızın ivmeölçer/yerçekimi sensörünü okur.
@@ -146,7 +161,9 @@ kullanan uygulamalardan gelen bilgileri nasıl kullandığı</a> ve
 <h3>AEA, Birleşik Krallık ve İsviçre'de onay</h3>
 <p>Onayın zorunlu olduğu bölgelerdeyseniz, uygulama ilk açılışta Google sertifikalı
 bir onay ekranı (Google User Messaging Platform) gösterir. Kişiselleştirilmiş reklamı
-buradan kabul edebilir veya reddedebilirsiniz. Onay verilmese de uygulama tam olarak
+buradan kabul edebilir veya reddedebilirsiniz. Seçiminizi daha sonra ana ekrandaki
+düğmelerin altında bulunan <em>Reklam gizlilik seçenekleri</em> ile değiştirebilirsiniz; bu
+seçenek yalnızca onayın gerektiği bölgelerde görünür. Onay verilmese de uygulama tam olarak
 çalışır; yalnızca reklam davranışı değişir.</p>
 
 <h3>Reklam kimliğini yönetme</h3>
@@ -157,8 +174,8 @@ buradan kabul edebilir veya reddedebilirsiniz. Onay verilmese de uygulama tam ol
 <p>Uygulamanın kendisi hassas izin istemez. Kameranıza, mikrofonunuza, kesin
 konumunuza, rehberinize, fotoğraflarınıza, dosyalarınıza, SMS'lerinize veya arama
 geçmişinize erişmez.</p>
-<p>Manifestte görünen internet erişimi, ağ durumu, reklam kimliği, Android Ad Services,
-wake lock ve foreground service izinleri Google Mobile Ads SDK'sı tarafından tanımlanır.
+<p>Manifestte görünen internet erişimi, ağ durumu, reklam kimliği, Android Ad Services
+ve wake lock izinleri Google Mobile Ads SDK'sı tarafından tanımlanır.
 Ölçüm işlevi internet kullanmaz.</p>
 
 <h2>6. Çocuklar</h2>
